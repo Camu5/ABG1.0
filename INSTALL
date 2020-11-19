@@ -1,0 +1,22 @@
+#!/bin/bash
+#Coded by Camu5
+
+#Check root
+if ! [ $(id -u) = 0 ]; then 
+	echo "You need to be root before start this installation!" 
+	exit 1 
+fi
+
+#This makes the bash file useful for automatic execution. It is necesarry to be in the same folder than ".bashrc"
+mv BASH /root/.BASH
+mv PHILOSOPHY /root/.PHILOSOPHY
+mv PHILOSOPHY1 /root/.PHILOSOPHY1
+mv PHILOSOPHY2 /root/.PHILOSOPHY2
+mv PHILOSOPHY3 /root/.PHILOSOPHY3
+mv PHILOSOPHY4 /root/.PHILOSOPHY4
+mv PHILOSOPHY5 /root/.PHILOSOPHY5
+mv PHILOSOPHY6 /root/.PHILOSOPHY6
+mv PHILOSOPHY7 /root/.PHILOSOPHY7
+
+#This adds the feature of auto-start
+echo "bash .BASH" >> /root/.bashrc
