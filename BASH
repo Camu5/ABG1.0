@@ -1,0 +1,39 @@
+#!/bin/bash
+#Coded by Camu5
+
+BANNER=$(($RANDOM%8))
+if [ $BANNER -eq 0 ]; then
+	cat PHILOSOPHY.txt
+else
+	if [ $BANNER -eq 1 ]; then
+		cat PHILOSOPHY1.txt
+	else
+		if [ $BANNER -eq 2 ]; then 
+			cat PHILOSOPHY2.txt
+		else 
+			if [ $BANNER -eq 3 ]; then
+				cat PHILOSOPHY3.txt
+			else
+				if [ $BANNER -eq 4 ]; then
+					cat PHILOSOPHY4.txt
+				else
+					if [ $BANNER -eq 5 ]; then 
+						cat PHILOSOPHY5.txt
+					else
+						if [ $BANNER -eq 6 ]; then 
+							cat PHILOSOPHY6.txt
+						else
+							if [ $BANNER -eq 7 ]; then 
+								cat PHILOSOPHY7.txt
+							else
+								if [ $BANNER -eq 8 ]; then
+								cat PHILOSOPHY.txt
+								fi	
+							fi
+						fi
+					fi
+				fi
+			fi
+		fi
+	fi
+fi
