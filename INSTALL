@@ -9,14 +9,14 @@ fi
 
 #This makes the bash file useful for automatic execution. It is necesarry to be in the same folder than ".bashrc"
 mv BASH /root/.BASH
-mv PHILOSOPHY.txt /root/.PHILOSOPHY.txt
-mv PHILOSOPHY1.txt /root/.PHILOSOPHY1.txt
-mv PHILOSOPHY2.txt /root/.PHILOSOPHY2.txt
-mv PHILOSOPHY3.txt /root/.PHILOSOPHY3.txt
-mv PHILOSOPHY4.txt /root/.PHILOSOPHY4.txt
-mv PHILOSOPHY5.txt /root/.PHILOSOPHY5.txt
-mv PHILOSOPHY6.txt /root/.PHILOSOPHY6.txt
-mv PHILOSOPHY7.txt /root/.PHILOSOPHY7.txt
+mv PHILOSOPHY.txt /home/$USER/.PHILOSOPHY.txt
+mv PHILOSOPHY1.txt /home/$USER/.PHILOSOPHY1.txt
+mv PHILOSOPHY2.txt /home/$USER/.PHILOSOPHY2.txt
+mv PHILOSOPHY3.txt /home/$USER/.PHILOSOPHY3.txt
+mv PHILOSOPHY4.txt /home/$USER/.PHILOSOPHY4.txt
+mv PHILOSOPHY5.txt /home/$USER/.PHILOSOPHY5.txt
+mv PHILOSOPHY6.txt /home/$USER/.PHILOSOPHY6.txt
+mv PHILOSOPHY7.txt /home/$USER/.PHILOSOPHY7.txt
 
 #This adds the feature of auto-start
-echo "bash .BASH" >> /root/.bashrc
+echo "bash .BASH" >> /home/$USER/.bashrc
