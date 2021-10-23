@@ -19,4 +19,4 @@ mv PHILOSOPHY6.txt /$USER/.PHILOSOPHY6.txt
 mv PHILOSOPHY7.txt /$USER/.PHILOSOPHY7.txt
 
 #This adds the feature of auto-start
-echo "bash .BASH" >> /home/$USER/.bashrc
+echo "bash .BASH" >> /$USER/.bashrc
