@@ -9,10 +9,10 @@ fi
 
 #Variable for moving files.
 OL1MPUS="$(find ~ -name ".bashrc")"
-OLIMPUS="{OL1MPUS/.bashrc/}"
+OLIMPUS="${OL1MPUS/.bashrc/}"
 
 #This makes the bash file useful for automatic execution. It is necesarry to be in the same folder than ".bashrc"
-mv BASH /lol/.BASH
+mv BASH $OLIMPUS/.BASH
 mv PHILOSOPHY.txt $OLIMPUS/.PHILOSOPHY.txt
 mv PHILOSOPHY1.txt $OLIMPUS/.PHILOSOPHY1.txt
 mv PHILOSOPHY2.txt $OLIMPUS/.PHILOSOPHY2.txt
